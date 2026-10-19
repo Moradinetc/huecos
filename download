@@ -1,0 +1,20 @@
+# ─── Secretos: NUNCA subir a GitHub ───
+.env
+.env.*
+*.env
+# Credenciales de servicio (BigQuery, Google Cloud, etc.)
+*credentials*.json
+*service-account*.json
+gcp*.json
+key*.json
+secret*
+
+# Dependencias / build
+node_modules/
+.vercel/
+.DS_Store
+
+# FOTO local con datos embebidos (contiene inventario/ventas; no debe ir al repo)
+*FOTO*.html
+*_foto*.html
+index_foto.html
