@@ -1,0 +1,9 @@
+{
+  "name": "huecos-etcetera",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Dashboard de Huecos de etcetera accesorios (Vercel + funciones serverless)",
+  "engines": {
+    "node": "20.x"
+  }
+}
